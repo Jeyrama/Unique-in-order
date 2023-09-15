@@ -15,3 +15,5 @@ uniqueInOrder([1,2,2,3,3])       == [1,2,3]
 let uniqueInOrder=function(iterable){
   return [...iterable].filter((a, i) => a !== iterable[i-1])
 }
+
+// or
